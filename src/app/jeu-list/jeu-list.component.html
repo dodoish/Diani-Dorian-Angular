@@ -1,0 +1,11 @@
+
+<ul>
+  <app-jeu *ngFor="let jeu of jeux; let i = index"
+           [NameJeu]="jeu.data.NameJeu"
+           [prix]="jeu.data.prix"
+           [jacket]="jeu.data.jacket"
+           [dateDeSortie]="jeu.data.dateDeSortie"
+           [Studio]="jeu.data.Studio"
+           [index]="i"
+           [id]="jeu.id"></app-jeu>
+</ul>

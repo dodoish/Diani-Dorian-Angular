@@ -1,0 +1,23 @@
+<li >
+  <div class="encadrement">
+  <div class="row">
+    <div class="col-2">
+      <img [src]="jacket" alt="jacket" class="jacket">
+    </div>
+    <div >
+      <p>Nom : {{ NameJeu}}</p>
+      <p>Studio : {{Studio}}</p>
+      <p>Prix : {{prix}}€</p>
+      <p>date de sortie {{dateDeSortie}}</p>
+
+    </div>
+  </div>
+  <div class="col-2">
+    <a [routerLink]="['/modif',id]" class="btn btn-warning">Modif</a>
+    <button class="btn btn-danger" (click)="supr()">suppr</button>
+  </div>
+  </div>
+</li>
+<!--
+rajout de variable
+-->

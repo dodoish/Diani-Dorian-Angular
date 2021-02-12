@@ -1,0 +1,50 @@
+<div class="row">
+  <div class="col-12 col-sm-6">
+    <div class="form-group">
+      <label>Name</label>
+      <br>
+      <input type="text" class="form-control" [(ngModel)]="jeu.NameJeu">
+    </div>
+  </div>
+  <div class="col-12 col-sm-6">
+    <div class="form-group">
+      <label>Prix</label>
+      <br>
+      <input type="number" class="form-control" [(ngModel)]="jeu.prix">
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12 col-sm-6">
+    <div class="form-group">
+      <label>date de sortie</label>
+      <br>
+      <input type="date" class="form-control" [(ngModel)]="jeu.dateDeSortie">
+    </div>
+  </div>
+  <div class="col-12 col-sm-6">
+    <div class="form-group">
+      <label>Studio</label>
+      <br>
+      <input type="text" class="form-control" [(ngModel)]="jeu.Studio">
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12 col-sm-6">
+    <div class="form-group">
+      <label>Jacket</label>
+      <br>
+      <input type="text" class="form-control" [(ngModel)]="jeu.jacket">
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+    <div class="submit">
+     <button class="btn btn-outline-success" (click)="add()">
+       Envoyer
+     </button>
+    </div>
+  </div>
+</div>
